@@ -1,0 +1,13 @@
+Program description
+General information:
+Airtransport Program.exe is designed to simulate Air traffic.
+Functionality:
+The program is intended for use in higher education institutions to demonstrate the main concepts of the object-oriented approach in the development of SOFTWARE by means of The C++language.
+Technical means used:
+To run the program requires a personal computer with a processor frequency of at least 1.2 GHz and RAM of at least 256 MB.
+Call and download:
+The program is called and loaded by launching the airtransport executable file.exe.
+Input:
+As the source data, the program uses the data entered by the user from the keyboard.
+Output:
+The output is displayed and the files are specified by the user or written in the program code.dfdfdf

@@ -1,0 +1,9 @@
+rus.txt
+rus_aboutauthor.txt
+rus_aboutprogramm.txt
+rus_readme.txt
+eng.txt
+eng_aboutauthor.txt
+eng_aboutprogramm.txt
+eng_readme.txt
+data.txt

@@ -1,0 +1,24 @@
+body{    
+    text-align: center;
+}
+
+.l4div{
+    width:300px;    
+    text-align: center;
+    border: 3px double green;
+    vertical-align: middle;    
+}
+#example{
+    width:150px;
+    height:150px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+button, input{    
+    width:150px;
+    height:30px;    
+}
+#example, button, input{
+    display: inline-block;
+    margin: 5px;
+}

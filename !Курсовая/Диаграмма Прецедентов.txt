@@ -1,0 +1,18 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+actor customer
+actor bank
+actor terminal1
+actor terminal2
+rectangle virtual {
+  customer --> bank
+  (money1) .> (useracc) 
+  (money2) .> (useracc)
+  terminal1 <-- bank 
+  terminal2 <-- bank 
+  terminal1-->(useracc)
+  terminal2-->(useracc)
+ 
+}
+@enduml

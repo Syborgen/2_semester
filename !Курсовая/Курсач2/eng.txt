@@ -1,0 +1,147 @@
+|Error| No such file!
+					DPR Ministry of education and science
+					Donetsk national technical University
+
+												the faculty of CST
+													
+Department of PI
+
+							Course project
+						on discipline: Object-oriented programming
+							topic: Air transport
+							 
+Performed: 											Checked:
+
+PI-18b												Shchedrin S. V.
+Meleshenko N.V.										    	Nogtev E. A.
+
+				
+							Donetsk 2019
+Current language: English
+[1] - Select another language
+Press any key to continue . . .
+List of available languages:
+[1] - Russian
+[2] - English
+Menu:
+[1] Edit config file
+[2] Demonstration
+[3] Save current session
+[4] Change language
+[5] operator's Manual
+[6] About the author
+[7] About the program
+[8] to Load a saved session
+[9] Exit
+|Config|
+Change the file path:
+[1] with Russian localization
+[2] (Russian) about the author
+[3] (Russian) about the program
+[4] (English) operator's manual
+[5] with English localization(Russian)
+[6] (English) about the author
+[7] (English) about the program
+[8] (English) operator's manual
+
+[9] done
+[c] change language
+New path(format .txt): 
+|ERROR| unable to create file!
+|COMMUNICATION| Press [k] to exit or press any key to continue.
+|ERROR| The file Extension should be .txt!
+|ERROR| File name Too short!
+|ERROR| Incorrect input. Try again.
+|ERROR| File Name does not match name in config.txt.
+Air transport is not complete without the airport.
+Create an airport.
+Current language:
+Russian
+English
+List is empty(
+Enter the number of passengers.
+Enter the number of aircraft.
+Enter the number of helicopters.
+Enter the number of Airliners.
+|Airport| Passengers:
+|Airport| How to change the object?
+[1] - Add/remove aircraft | Current count:
+[2] - Add/remove helicopter | Current count:
+[3] - Add/remove airliner | Current quantity:
+[4] - Add/remove passengers | Current number:
+[5] - Empty all hangars
+[6] - Kick out all the passengers
+[ESC] - Output
+Add or remove aircraft(y/n)?
+|MESSAGE| no IN the hangar as the aircraft. Enter the correct number. Their only:
+Add or remove helicopter(y/n)?
+|MESSAGE| there are not so many helicopters IN the hangar. Enter the correct number. Their only:
+To add or remove the aircraft(y/n)?
+|MESSAGE| there are not so many Airliners IN the hangar. Enter the correct number. Their only:
+Add or expel passengers(y/n)?
+|MESSAGE| there are not so many passengers AT the airport. Enter the correct number. Their only:
+|MESSAGE| hangars empty. No air transport.
+|MESSAGE| No passengers at the airport. There is no one to get on Board.
+Run what?
+[1] - Fly | Hangar:
+[2] - Helicopter | Hangar:
+[3] - Airliner | Hangar:
+[ESC] - Output
+|MESSAGE| no Planes in the hangar. Try another transport.
+|MESSAGE| no Helicopters in the hangar. Try another transport.
+|MESSAGE| no Aircraft in the hangar. Try another transport.
+|MESSAGE| IN the air there transport.
+Enter the number of sides for fit.
+|MESSAGE| TO the airport, no passengers.
+Enter an integer(>0):
+Change what?
+[1] - Speed | Current:
+[2] - Distance | Current:
+[3] - number of passengers | Current:
+[4] - Height | Current:
+[5] - number of screws | Current:
+[6] - fuel tank capacity | Current:
+[ESC] - Output
+|POST| On-Board fuel.
+Enter the speed.
+Enter the distance.
+Enter the number of passengers.
+Enter the height(500-15000 m).
+Enter the number of turbines.
+Enter the number of Luggage.
+Enter the fuel tank capacity(1-100%).
+[5] - number of turbines | Current:
+[6] - the Amount of Luggage | Current:
+[7] - tank Volume | Current:
+|POST| On-Board passengers.
+Fuel discharge is not possible.
+There is no object with this number!
+|Num|Type|Speed|Distance|Pass|Height|Turbo/Screw|Capacity|Baggage|
+Enter the Board number to change the characteristics.
+Enter the number of screws.
+Selected action.
+[1] Display information
+[2] Change characteristics
+[3] Launch air facility
+[4] Land air facility
+[5] to Bring air traffic
+[6] Clear the sky
+[7] to Edit the object in the room
+[8] Exit
+|Message| hangars are empty.
+Aircraft's:
+Helicopters':
+Airliners':
+How to change object?
+[1] to Change the characteristics
+[2] Reset fuel
+[3] Parachute all passengers
+[ESC] Back
+|ERROR| the Session is not created.
+|The MESSAGE| Session is saved.
+|ERROR| the Session is not loaded.
+|The MESSAGE| Session is loaded.
+|ERROR| the Session is not loaded. The save file is empty.
+Total objects:
+[b] - back
+|The MESSAGE| The object is planted

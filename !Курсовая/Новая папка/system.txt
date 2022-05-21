@@ -1,0 +1,42 @@
+Введите 1 или 2/Enter 1 or 2
+Введите цифру от 0 до 4
+Enter a number from 0 to 4
+Введите цифру от 0 до 3
+Enter a number from 0 to 3
+Введите цифру от 0 до 5
+Enter a number from 0 to 5
+Введите ФИО владельца аккаунта: 
+Enter the name of the account holder: 
+Введите идентификационный номер аккаунта: 
+Enter account identification number: 
+Введите валюту в которой будут производиться операции для этого аккаунта: 
+Enter the currency in which transactions will be made for this account: 
+Введите идентификационный номер аккаунта, который хотите вывести
+Enter the identification number of the account you want to withdraw
+Введите идентификационный номер аккаунта, счет которого хотите обнулить
+Enter the identification number of the account whose account you want to reset
+Имееться ли премиум на этом аккаунте?(1-да, 2-нет)
+Is there a premium on this account? (1-yes, 2-no)
+Введите 1 или 2
+Enter 1 or 2
+Повторите ввод
+Repeat input
+Ошибка: файл
+Error: File
+Ошибка: строка
+Error: String
+Введите количество денег на счету
+Enter count of money on your account
+Нажмите любую кнопку...
+Press any key...
+Файл открыт
+File opened
+Конец списка
+End of list
+Список пуст
+List is empty
+Элемент с номером 
+Element with id
+ не найден
+not founded
+

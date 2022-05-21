@@ -1,0 +1,139 @@
+td:nth-child(2n + 1)
+{
+    background-color: yellow;
+}
+
+td:nth-child(2n + 7)
+{
+    background-color: greenyellow;
+}
+
+tr:nth-child(9) td:nth-child(2n+5) , tr:nth-child(10) td:nth-child(2n+5)
+{
+        background-color: #000;
+}   
+tr:nth-child(9) td:nth-child(2n+6) , tr:nth-child(10) td:nth-child(2n+6)
+{
+    background-color: pink;
+}
+
+td
+{
+    border: 3px double rgb(255, 5, 34);
+}
+
+th
+{
+    background-color: black;
+    border: 3px double rgb(0, 255, 234);
+    color:white;
+}
+
+table 
+{
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Impact,fantasy;
+    font-size: 17.4pt;
+    text-align:left;
+}
+
+fieldset[name="lanch"], fieldset[name="Obed"],fieldset[name="multi"]
+{
+    float:left;
+    background-color:#dff9fb;
+    position: relative;
+    width: 315px;
+    border: 2px solid blue;
+    padding:20px;
+    margin:10px;
+    font-family:cursive;
+}
+
+fieldset[name="lanch"] legend, fieldset[name="Obed"] legend,fieldset[name="multi"] legend
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition:0.4s;
+    color:#3742fa;
+    position:relative;
+    bottom:-3px;
+    border-top:2px solid orange;
+    border-bottom:1px solid gray;
+    font-size:20pt; 
+    background-color: #dff9fb;
+    border-radius:25px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:2px;
+    cursor: pointer;
+}
+
+fieldset[name="lanch"] legend:hover, fieldset[name="Obed"] legend:hover,fieldset[name="multi"] legend:hover
+{
+    
+    color:orange;
+   
+    border:2px solid #be2edd;
+    background-color:orange;
+}
+
+fieldset[name="multi"] legend[id=pold]
+{
+    padding-left:10px;
+    padding-right:10px;
+    width: 100px;
+    height: 30px;
+}
+
+fieldset[name="multi"]
+{
+    width: 473px;
+    height: 150px;
+}
+
+fieldset[name="multi"] select
+{
+    position: relative;
+    bottom:4px;
+    border-radius:20px;
+    font-size:10pt;
+    font-family:cursive;
+    height: 60px;
+    background-color: greenyellow;
+}
+
+#s
+{
+    background-color: blue;
+}
+
+button[onclick="summ()"]
+{
+    position: relative;
+    background-color: orange;
+    color: #dff9fb;
+    font-family: cursive;
+    font-size:15pt;
+    border-radius:20px;
+    padding:10px;
+    bottom:-10px;
+    left:9%;
+}
+
+
+fieldset[name="Zavtrack"] p, fieldset[name="Obed"] p
+{
+    position: relative;
+    left:40%;
+    padding: 0px;
+    margin:5px;
+    font-size:13pt;
+}
+
+fieldset[name="multi"] p
+{
+    position: relative;
+    bottom:70%;
+    left:50%;
+}
+

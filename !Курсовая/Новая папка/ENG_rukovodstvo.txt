@@ -1,0 +1,8 @@
+Operator's manual
+Purpose of the program:
+The program is designed to simulate the process of user interaction with bank accounts.
+Terms of the program:
+To run the program, you need a PC like IBM PC or software compatible with it, operating under the operating system of the Windows family (not below Windows XP).
+Program execution:
+To switch the language, the user must click the need to press the key specified in the menu.
+Select the desired menu item by pressing the number keys (1-9). To return to the previous menu, use the 0 key. If you press 0 in the main menu, the program ends its work.

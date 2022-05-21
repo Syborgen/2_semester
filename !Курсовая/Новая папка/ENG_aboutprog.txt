@@ -1,0 +1,13 @@
+Program description
+General information:
+The program is designed to simulate the process of user interaction with bank accounts.
+Functional purpose:
+The program is intended for use in higher education institutions in order to demonstrate the main concepts of the object-oriented approach in software development using C ++.
+Used hardware:
+To run the program requires a personal computer with a processor frequency of at least 1.2 GHz and a RAM of at least 256 MB.
+Call and download:
+The program is called and loaded by launching the executable file with the .exe extension.
+Input data:
+The program uses data entered by the user from the keyboard and previously created files as source data.
+Output:
+The output data is displayed on the screen and the files that are specified by the user or are written in the program code.

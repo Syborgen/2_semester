@@ -1,0 +1,7 @@
+At the first stage of designing an information system, it is necessary to perform an analysis of the subject area and determine the objects of the subject area.
+Suppose that the approach to the study of the subject area will be based on identifying the daily or global tasks (problems) of this or that audience. In this case, you can select a minimum set of domain objects for their description.
+We use a
+Properties of the object "Money":
+- field "currency" char * Currency;
+- field “sum” long Sum;
+The extended property set will vary depending on the purpose of the subclass that inherits the data from the main class. combination of this approach with an approach that involves finding objects in such a way that they can be used in solving the greatest number of domain problems.

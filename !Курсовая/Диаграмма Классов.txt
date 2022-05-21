@@ -1,0 +1,93 @@
+@startuml
+
+abstract class PremParametr{
+virtual bool GetParam() = 0;
+	virtual void ChangeParam() = 0;
+	}
+	
+abstract class AccPrototype{
+    virtual void AddMoney(long Sum) = 0;
+	virtual long SubMoney(long Sum) = 0;
+	}
+	class interface{
+	}
+	class interface{
+	void changei();
+	string Text(const string& filename, int Num)
+	void FirstScreen(bool rus)
+	void MainMenu(bool ru)
+	void DemonstrationMenu1(bool ru)
+	void DemonstrationMenu2(bool ru)
+	void corrInput(int* x)
+	void Descriptionmenu(bool ru)
+	}
+	CList-->interface
+class CList{
+struct list
+list *head; 
+list *tale;
+}
+class CList{
+CList()
+void save(string s)
+void DeleteList()
+void load(string s)
+void AddItem(T value)
+void DisplayList()
+void DisplayElement(long id)
+T* ReturnElement(long id)
+}
+
+
+Money "1"--* "1"Account
+Money"1"--*"1"PremAccount
+PremAccount--|>Account
+AccPrototype<|--Account
+PremParametr<|--PremAccount
+CList"1"--*"*"Account
+CList"1"--*"*"PremAccount
+class Money{
+char* Currency
+long Sum
+{static} CountOfMoney
+}
+
+
+class Money{
+string Currency;
+	long Sum;
+}
+class Money{
+
+	Money();
+	Money(string Currency, long Sum);
+	string GetCurrency();
+	long GetSum();
+}
+class Account{
+string FIO;
+	long ident;
+	Money m;
+}
+class Account{
+	Account();
+	Account(string FIO, long ident, Money m);
+	void AddMoney(long Sum);
+	long SubMoney(long Sum);
+	void fread(string, int);
+	long GetIdent() 
+	virtual void savea(string);
+	void operator!();
+	friend ostream & operator<<(ostream &, Account &);
+}
+class PremAccount{
+bool value
+}
+class PremAccount{
+bool GetVal()
+void ChangeVal()
+}
+
+
+
+@enduml

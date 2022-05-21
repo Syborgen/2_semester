@@ -1,0 +1,56 @@
+﻿<html>
+    <head>
+         <link rel="stylesheet" href="../labs.css">
+        <link rel="stylesheet" href="lab3.css">
+       
+         <script type="text/javascript" src="lab3.js"></script>
+       
+    </head>
+    <body>
+    
+        <div>
+          
+        <table id="xmpl">
+            <legend>Возможные продукты</legend> 
+            <thead>
+               <tr id="xmpl-th-tr"> <th>Продукт</th>
+                <th>Жиры</th>
+                <th>Белки</th>
+                   <th>Углеводы</th>
+                </tr>
+            </thead>
+            <tbody id="xmpl-tbd">                
+            </tbody>
+            <tfoot id="xmpl-tft">
+               <tr id="z1">
+                <td colspan="4" ><a  onclick="onz1()">Заполни Меня!</a></td>  
+                </tr>
+                <tr id="f1">
+                <td colspan="4" ><form id="xmpl-meal"></form></td> 
+                </tr>
+                <tr id="z2">
+                <td colspan="4" ><a  onclick="onz2()">Посчитай Итоги!</a></td> 
+                </tr>
+            </tfoot>
+            
+        </table>
+        
+            
+            <template id="xmpl-tmplt1">
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>                               
+            </tr>
+            </template>
+            <template id="xmpl-tmplt2">
+            <tr>
+                <th></th>
+                <th></th>
+               <th></th>
+                <th></th>                              
+            </tr>
+            </template>
+        </div>
+    </body>
+</html>

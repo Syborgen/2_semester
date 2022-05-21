@@ -1,0 +1,343 @@
+@supports (display: flex) {
+  @media screen and (min-width: 700px) {
+body, html {
+    height: 100%;
+    margin: 0;
+    
+}
+body {
+   font-family: Roboto, RobotoDraft, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 13px !important;
+    color: #555;
+    background-color: white;
+}
+
+p.otst::first-letter{
+	font-size:20px;
+	color:red;
+    margin: 0 7px 2px -30px;
+	
+}
+      table#t1{
+           border-style: dotted;
+          border-color: fuchsia;
+          font-family:Market Felt, fantasy;
+          font-size: 18.8;
+          text-align-last: right;
+          
+      }
+      table#t2{
+          border-style: dotted;
+          border-color: rgb(0,255,255);
+          font-family:Trattatello, fantasy;
+          font-size: 15.6;
+          text-align-last: right;
+      }
+      td#r{
+          background-color:fuchsia
+      }
+	  th#r{
+          background-color:fuchsia
+      }
+      
+      tr#h{
+          background-color:rgb(0,255,255)
+      }
+
+header {
+    
+    margin-top: -15px;
+width: 100%;
+  
+
+background-color: #00ad6b;
+color: rgb(51, 51, 51);
+height: 120px;
+min-width: 400px;
+box-shadow: 0 5px 8px rgba(0,0,0,.28);
+}
+
+header h1 {
+    position:  relative;
+color: rgb(255, 255, 255);
+
+font-family:Trattatello, fantasy;
+font-size: 19.5px;
+text-align: left;
+font-weight: 300;
+line-height: 20px;
+
+white-space: nowrap;
+    padding-top: 10px;
+ 
+}
+header p {
+color: rgba(255, 255, 255, 0.54);
+font-weight: 400;
+line-height: 31px;
+font-family:Trebuchet MS, sans-serif;
+font-size: 13.5px;
+text-align: justify;
+    
+    position: relative;
+    margin-left: 10px;
+    margin-top: -10px;
+    
+
+}
+
+div.mainDiv main{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+      }
+
+div.asideDiv{
+   
+position: sticky;
+top: 5px;
+   align-self: flex-start;
+    margin: 10px;
+ 
+    background-color: #42ad84;
+    min-width: 300px;
+    max-width: 350px;
+   
+
+border-style:  solid;
+border-width: 1px;
+border-color: rgba(0,0,0,.12);
+border-radius: 5px;    
+box-sizing: border-box;
+box-shadow: 0 0 2px rgba(0,0,0,.12),0 2px 4px rgba(0,0,0,.24);
+   
+
+}
+
+div.asideDiv li{
+    clear: left;
+color: rgb(255, 255, 255);
+cursor: pointer;
+font-family: Roboto, sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+height: auto;
+line-height: 19px;
+list-style-image: none;
+list-style-position: outside;
+list-style-type: none;
+text-align: left;
+text-decoration: none;
+text-decoration-color: rgb(64, 64, 64);
+text-decoration-line: none;
+text-decoration-style: solid;
+text-overflow: ellipsis;
+    list-style: none;
+    margin-left: -20px;
+}
+div.asideDiv a{
+clear: left;
+color: rgb(64, 64, 64);
+cursor: pointer;
+font-family: Roboto, sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+height: auto;
+line-height: 19px;
+list-style-image: none;
+list-style-position: outside;
+list-style-type: none;
+text-align: left;
+text-decoration: none;
+text-decoration-color: rgb(64, 64, 64);
+text-decoration-line: none;
+text-decoration-style: solid;
+text-overflow: ellipsis;
+
+}
+div.asideDiv a:link{
+font-weight:bolder;	
+}
+      div.asideDiv a:visited{
+	color:grey;
+}
+div.asideDiv a:hover{   
+	font-style:italic;
+}
+
+div.asideDiv a:active{
+	border:2px solid red;
+}
+      
+      
+
+/*aside{
+    position: sticky;
+}*/
+      
+      
+      
+      
+      
+      div.eDiv a:link{
+font-weight:bolder;	
+}
+      div.eDiv a:visited{
+	color:grey;
+}
+div.eDiv a:hover{   
+	font-style:italic;
+}
+
+div.eDiv a:active{
+	border:2px solid red;
+}
+div.eDiv{
+	   
+position: fixed;
+right: 5px;
+   align-self: flex-start;
+    margin: 10px;
+ min-height: 30px;
+min-width: 200px;
+    background-color: #42ad84;
+   
+
+border-style:  solid;
+border-width: 1px;
+border-color: rgba(0,0,0,.12);
+border-radius: 5px;    
+box-sizing: border-box;
+box-shadow: 0 0 2px rgba(0,0,0,.12),0 2px 4px rgba(0,0,0,.24);
+ 
+}
+div.artDiv{
+  
+   margin: 10px;
+    background-color: #BEBEBE;
+
+color: rgb(51, 51, 51);
+font-family: Roboto, sans-serif;
+font-size: 13px;
+font-weight: 400;
+min-width: 300px;
+max-width: 700px;
+
+border-style:  solid;
+border-width: 1px;
+border-color: rgba(0,0,0,.12);
+border-radius: 5px;    
+box-sizing: border-box;
+box-shadow: 0 0 2px rgba(0,0,0,.12),0 2px 4px rgba(0,0,0,.24);
+
+    
+}
+
+
+div p{
+font-family:Trebuchet MS, sans-serif;
+font-size: 13.5px;
+text-align: justify;
+  }
+div.artDiv h1{
+/*display: block;*/
+color: rgba(0, 0, 0, 0.54);
+font-family:Trattatello, fantasy;
+font-size: 19.5px;
+text-align: left;
+font-weight: 300;
+}
+div.artDiv h2{
+    color: rgb(115, 115, 115);
+	
+text-align: center;
+font-family:Trattatello, fantasy;
+font-size: 16.5px;
+font-weight: 400;
+
+
+padding-bottom: 8px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 24px;
+}
+div.artDiv h3{
+    display: none;
+    color: rgb(115, 115, 115);
+
+font-family:Trebuchet MS, sans-serif;
+font-size: 13.5px;
+text-align:left;
+font-weight: 400;
+
+padding-bottom: 8px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 24px;
+}
+div.sectionDiv{color: #5E5E5E;
+display: block;
+font-family: Roboto, sans-serif;
+font-size: 12px;
+font-weight: 400;
+/*height: 80px;*/
+line-height: 20px;
+list-style-image: none;
+list-style-position: outside;
+list-style-type: none;
+text-align: left;
+
+margin:20px 
+}
+div.sectionDiv p{
+    text-align: justify;
+    text-indent: 3ch;
+}
+
+footer{/*background-attachment: scroll;*/
+
+background-color: #EF5C5F;
+
+
+border-top-color: rgb(228, 228, 228);
+border-top-style: solid;
+border-top-width: 1px;
+text-align: center;
+box-sizing: border-box;
+height:50px; 
+}
+    }
+}
+@media screen and (max-width: 699px) {
+* {
+    list-style: none;
+    }
+    div.mainDiv main{
+    display: block;}
+    article,header,footer,aside,main{
+        border-bottom-style: double;
+        border-width: 3px;
+        border-bottom-color: darkblue;
+        text-align: justify; 
+        text-indent: 3ch;
+    }
+}
+@media print  {
+    
+    header,footer,aside{
+        display: none;
+    }
+    main p
+    {
+       text-align: justify;
+        text-indent: 3ch;
+    }
+        h1,h2,h3
+    {
+       text-align: center; 
+    }
+}

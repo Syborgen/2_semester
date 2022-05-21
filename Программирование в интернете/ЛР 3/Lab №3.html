@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab №3</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+        <table id="table one">
+                <caption>Продукты</caption>
+                   <thead>
+                       <th>long_name</th>
+                       <th>Carbohydrate, by difference</th>
+                       <th>Fatty acids, total saturated</th>
+                       <th>Protein</th>
+                   </thead>
+                 <tr>
+                     <td>1% LOW FAT MILK</td>
+                     <td>11.25 g</td>
+                     <td>0.83 g</td>
+                     <td>3.75 g</td>
+                 </tr>
+                 <tr>
+                        <td>1% LOW FAT ULTRA-FILTERED MILK</td>
+                        <td>2.5 g</td>
+                        <td>0.62 g</td>
+                        <td>5.42 g</td>
+                 </tr>
+                 <tr>
+                        <td>1% LOWFAT CHOCOLATE MILK</td>
+                        <td>13.33 g</td>
+                        <td>0.83 g</td>
+                        <td>3.33 g</td>
+                 </tr>
+                 <tr>
+                        <td>1% LOWFAT COTTAGE CHEESE</td>
+                        <td>4.42 g</td>
+                        <td>0.88 g</td>
+                        <td>11.5 g</td>
+                 </tr>
+                 <tr>
+                        <td>1% LOWFAT COW MILK</td>
+                        <td>5.42 g</td>
+                        <td>0.62 g</td>
+                        <td>3.33 g</td>
+                 </tr>
+                 <tr>
+                        <td>1% LOWFAT CULTURED BUTTERMILK
+                            </td>
+                        <td>5.83 g</td>
+                        <td>0.62 g</td>
+                        <td>3.75 g</td>
+                 </tr>
+
+                 <tr>
+                     <td>1% LOWFAT MILK</td>
+                     <td>4.58 g</td>
+                     <td>0.62 g</td>
+                     <td>3.33 g</td>
+                 </tr>
+                 
+                 <tr>
+                       
+                        <td>1% LOWFAT MILK CHOCOLATE</td>
+                        <td>13.53 g</td>
+                        <td>0.6 g</td>
+                        <td>3.62 g</td>
+                 </tr>
+                 <tr>
+                        <td>1% LOWFAT MILK, STRAWBERRY</td>
+                        <td>8.21 g</td>
+                        <td>0.6 g</td>
+                        <td>3.38 g</td>
+                 </tr> 
+                 <tr>
+                        <td>1% LOWFAT MMMMILK</td>
+                        <td>5.0 g</td>
+                        <td>0.62 g</td>
+                        <td>3.33 g</td>
+                 </tr>
+                </table>
+
+<fieldset name="lanch">
+       <legend>Ланч</legend>
+       <p></p>
+       <input type="radio" name="z" value=15.83>1% LOW FAT MILK <br>
+       <input type="radio" name="z" value=8.54>1% LOW FAT ULTRA-FILTERED MILK <br>
+       <input type="radio" name="z" value=17.49>1% LOWFAT CHOCOLATE MILK <br>
+</fieldset>
+
+<fieldset name="Obed">
+       <legend>Обед</legend>
+       <p></p>
+       <input type="checkbox" name="z" value=58.34>1% LOWFAT COTTAGE CHEESE <br>
+       <input type="checkbox" name="z" value=24.32>1% LOWFAT COW MILK <br>
+       <input type="checkbox" name="z" value=26.41>1% LOWFAT CULTURED BUTTERMILK <br>
+</fieldset>
+   
+<fieldset name="multi">
+       <legend id='pold'>Полдник</legend>
+       <select name="one">
+              <option value="23.48">1% LOWFAT MILK</option>
+              <option value="33.41">1% LOWFAT MILK CHOCOLATE</option>
+       </select>
+       <select name="two">
+              <option value="27.13">1% LOWFAT MILK, STRAWBERRY</option>
+              <option value="38.9">1% LOWFAT MMMMILK</option>
+       </select>
+       <p></p>      
+</fieldset>
+
+
+       <button onclick="summ()">Сумма калорийности выбранных блюд</button>
+
+<p id="text"></p>
+
+<p id="demo"></p>
+    <script src="Js.js" before></script>
+</body>    
+
+</html>

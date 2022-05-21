@@ -1,0 +1,14 @@
+RU_Menu.txt
+ENG_Menu.txt
+system.txt
+RU_pro.txt
+ENG_pro.txt
+RU_aboutme.txt
+ENG_aboutme.txt
+RU_aboutprog.txt
+ENG_aboutprog.txt
+RU_rukovodstvo.txt
+ENG_rukovodstvo.txt
+ListOfAcc.txt
+ListOfPAcc.txt
+

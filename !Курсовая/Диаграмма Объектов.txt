@@ -1,0 +1,50 @@
+@startuml 
+
+title Object Diagram 
+
+object Money1{
+Currency=EU
+Sum=12
+}
+object Money2{
+Currency=RUB
+Sum=342
+}
+object Money3{
+Currency=YEN
+Sum=66
+}
+object Account1{
+FIO=Floyd Limp
+ident=123
+m=Money1
+}
+object Account2{
+FIO=Jack Smith
+ident=1634
+m=Money2
+}
+object PremAccount1{
+FIO=Otto Fon
+ident=5961
+m=Money3
+param=true
+}
+object ListOfAcc{
+countofel=2
+}
+object ListOfPAcc{
+countofel=1
+}
+object interface{
+}
+Money2 --* Account2
+Money1 --* Account1
+Money3--*PremAccount1
+ListOfAcc*--Account1
+ListOfAcc*--Account2
+ListOfPAcc*--PremAccount1
+ListOfAcc-->interface
+ListOfPAcc-->interface
+
+@enduml
